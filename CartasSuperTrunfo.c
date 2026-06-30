@@ -19,7 +19,7 @@ int main() {
   pib1 = 6.3;
   densidade1 = (float)populacao1 / area1;
   pib_per_capita1 = (float)pib1 * 1000000000 / (populacao1);
-  super_poder_carta1 = (double)populacao1 + area1 + pib1 * 1000000000 + pontos_turisticos1 + densidade1 + pib_per_capita1;
+  super_poder_carta1 = (double)populacao1 + area1 + pib1 * 1000000000 + pontos_turisticos1 - densidade1 + pib_per_capita1;
 
   //Impressão da Carta 1
   printf("---------Carta A01-----------\n");
@@ -39,7 +39,7 @@ int main() {
   pib2 = 66.34;
   densidade2 = (float)populacao2 / area2;
   pib_per_capita2 = (float)pib2 * 1000000000 / (populacao2);
-  super_poder_carta2 = (double)populacao2 + area2 + pib2 * 1000000000 + pontos_turisticos2 + densidade2 + pib_per_capita2;
+  super_poder_carta2 = (double)populacao2 + area2 + pib2 * 1000000000 + pontos_turisticos2 - densidade2 + pib_per_capita2;
 
   //Impressão da Carta 2
   printf("---------Carta A02-----------\n");
